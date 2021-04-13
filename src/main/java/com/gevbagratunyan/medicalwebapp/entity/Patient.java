@@ -1,12 +1,9 @@
 package com.gevbagratunyan.medicalwebapp.entity;
 
-import com.gevbagratunyan.medicalwebapp.enums.Disease;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import java.time.LocalDate;
-import java.util.List;
 import java.util.Map;
 
 @Data
