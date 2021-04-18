@@ -1,6 +1,6 @@
 package com.gevbagratunyan.medicalwebapp.controllers;
 
-import com.gevbagratunyan.medicalwebapp.entity.Patient;
+import com.gevbagratunyan.medicalwebapp.entity.model.Patient;
 import com.gevbagratunyan.medicalwebapp.services.PatientService;
 import com.gevbagratunyan.medicalwebapp.trensfer.patient.request.PatientAddRequest;
 import com.gevbagratunyan.medicalwebapp.trensfer.patient.request.PatientUpdateRequest;

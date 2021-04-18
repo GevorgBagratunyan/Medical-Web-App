@@ -1,5 +1,6 @@
-package com.gevbagratunyan.medicalwebapp.entity;
+package com.gevbagratunyan.medicalwebapp.entity.model;
 
+import com.gevbagratunyan.medicalwebapp.entity.examinations.Exams;
 import lombok.Data;
 
 import javax.persistence.*;
@@ -34,6 +35,10 @@ public class Patient {
     @CollectionTable(name = "diseases")
     @MapKeyColumn(name = "date")
     private Map<LocalDate,String> diseases;
+
+    @ManyToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    private Exams exams;
+
 
     @Column(name = "created_date", nullable = false)
     private LocalDate createdDate;

@@ -1,6 +1,6 @@
 package com.gevbagratunyan.medicalwebapp.services;
 
-import com.gevbagratunyan.medicalwebapp.entity.Patient;
+import com.gevbagratunyan.medicalwebapp.entity.model.Patient;
 import com.gevbagratunyan.medicalwebapp.repository.PatientRepository;
 import com.gevbagratunyan.medicalwebapp.services.CRUD.Create;
 import com.gevbagratunyan.medicalwebapp.services.CRUD.Delete;
